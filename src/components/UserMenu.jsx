@@ -53,19 +53,19 @@ const UserMenu = () => {
           },
         }}
       >
-        <Link to={"/profile"}>
+        {/* <Link to={"/profile"}> */}
           <MenuItem className="flex gap-3" onClick={handleClose}>
             <FaUser size={20} />
             <span className="font-bold text-[16px] mt-1">{user?.username}</span>
           </MenuItem>
-        </Link>
+        {/* </Link> */}
 
-        <Link to={"/profile/orders"}>
+        {/* <Link to={"/profile/orders"}>
           <MenuItem className="flex gap-3" onClick={handleClose}>
             <FaShoppingCart size={20} />
             <span className="font-semibold">Order</span>
           </MenuItem>
-        </Link>
+        </Link> */}
 
         <MenuItem className="flex gap-3" onClick={logoutHandler}>
           <div className="font-semibold w-full flex gap-2 items-center bg-button-gradient px-4 py-1 text-white rounded-sm">
