@@ -36,7 +36,6 @@ const Paymentmethod = () => {
     <div className="max-w-md mx-auto p-5 bg-white shadow-md rounded-lg mt-16 border">
       <h1 className="text-2xl font-semibold mb-4">Select Payment Method</h1>
       <FormControl>
-        <FormLabel id="demo-controlled-radio-buttons-group">Gender</FormLabel>
         <RadioGroup
           aria-labelledby="Payment Mehod"
           name="paymentMethod"
