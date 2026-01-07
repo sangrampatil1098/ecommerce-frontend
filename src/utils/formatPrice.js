@@ -5,6 +5,7 @@ export const formatPrice = (amount) => {
   }).format(amount);
 };
 
-export const formatPriceCalculation = (quantity, price) => {
-  return (Number(quantity) * Number(price)).toFixed(2);
+export const formatPriceCalculation = (quantity, spacialPrice) => {
+  const total = (Number(quantity) * Number(spacialPrice)).toFixed(2);
+  return total;
 };
