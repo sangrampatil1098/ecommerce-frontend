@@ -68,6 +68,7 @@ const Checkout = () => {
               totalPrice={totalPrice}
               cart={cart}
               address={selectedUserAddress}
+              paymentMethod={paymentMethod}
             />
           )}
           {activeStep === 3 && (
