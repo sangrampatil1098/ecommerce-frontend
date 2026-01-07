@@ -55,7 +55,7 @@ const OrderSummary = ({ totalPrice, cart, address, paymentMethod }) => {
                           {item?.quantity} x ${item.specialPrice} = $
                           {formatPriceCalculation(
                             item.quantity,
-                            item.spacialPrice
+                            item.specialPrice
                           )}
                         </p>
                       </div>
