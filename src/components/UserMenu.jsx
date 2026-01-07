@@ -53,12 +53,12 @@ const UserMenu = () => {
           },
         }}
       >
-        {/* <Link to={"/profile"}> */}
+        <Link to={"/"}>
           <MenuItem className="flex gap-3" onClick={handleClose}>
             <FaUser size={20} />
             <span className="font-bold text-[16px] mt-1">{user?.username}</span>
           </MenuItem>
-        {/* </Link> */}
+        </Link>
 
         {/* <Link to={"/profile/orders"}>
           <MenuItem className="flex gap-3" onClick={handleClose}>
